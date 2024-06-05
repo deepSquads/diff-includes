@@ -1,0 +1,9 @@
+name: 'Diff Includes Action'
+description: 'This is an action inspired by netlify/actions to prevent synchronous actions if changes happen in a specified folder.'
+author: 'deepSquads'
+inputs:
+  upstream:
+    args: 'The folder name you would like to watch'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
